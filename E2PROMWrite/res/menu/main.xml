@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+   xmlns:tools="http://schemas.android.com/tools"
+   tools:context="com.kjlee.e2promwrite.MainActivity" >
+
+   <item
+       android:id="@+id/action_settings"
+       android:orderInCategory="100"
+       android:title="@string/action_settings"
+       app:showAsAction="never"/>
+   <item android:id="@+id/EhRead" android:title="EhRead"></item>
+   <item android:id="@+id/EhWrite" android:title="EhWrite"></item>
+   <item android:id="@+id/BlockRead" android:title="BlockRead"></item>
+   <item android:id="@+id/BlockWrite" android:title="BlockWrite"></item>
+
+</menu>
